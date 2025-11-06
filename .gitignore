@@ -1,0 +1,35 @@
+# Virtual environments
+venv/
+.env
+.venv/
+env/
+
+
+# Data files (REQUIRED)
+data/
+*.csv
+*.ipynb_checkpoints/
+
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# OS
+.DS_Store
+Thumbs.db

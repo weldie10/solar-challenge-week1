@@ -46,6 +46,26 @@ python scripts/run_eda.py togo-dapaong_qc --output-dir results
 python scripts/run_eda.py sierraleone-bumbuna --output-dir results --skip-cleaning
 ```
 
+### `run_dashboard.py`
+
+Launcher script for the Streamlit dashboard application.
+
+**Usage:**
+```bash
+python scripts/run_dashboard.py
+```
+
+This will launch the interactive dashboard in your default web browser. The dashboard provides:
+- Overview with key metrics
+- Country-specific analysis
+- Cross-country comparisons
+- Data quality assessment
+
+**Alternative:**
+```bash
+streamlit run app/dashboard.py
+```
+
 ## Making Scripts Executable
 
 On Unix-like systems, you can make scripts executable:
